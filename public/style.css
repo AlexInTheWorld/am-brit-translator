@@ -1,0 +1,105 @@
+h1 {
+  text-align: center;
+}
+
+code {
+  background: #d0d0d5;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container {
+  max-width: 95%;
+}
+
+textarea {
+  width: 100%;
+}
+
+#user-stories {
+  font-size: 1.2em;
+}
+
+#output-container,
+#solution-container,
+#text-input,
+#locale-select,
+input[type="button"] {
+  font-size: 1.1em;
+}
+
+#output-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+#solution-container {
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+#v-pills-tab {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.translation-line {
+  display: grid;
+  grid-template-columns: 1fr 50px 1fr;
+}
+
+p:first-child {
+  text-align: right;
+}
+
+p:nth-child(2) {
+  text-align: center;
+}
+
+.translation-line:first-child {
+  font-weight: bold;
+}
+
+#translated-sentence {
+  margin-top: 10px;
+  font-weight: normal;
+}
+
+#error-msg {
+  font-weight: normal;
+  color: red;
+}
+
+.highlight {
+  color: green;
+}
+
+#text-input {
+  padding: 10px;
+}
+
+@media (min-width: 800px) {
+  .container {
+    flex-direction: row;
+  }
+
+  .form-container {
+    align-self: flex-end;
+  }
+
+  #output-container {
+    flex-direction: row;
+    margin-top: 0;
+    margin-left: 20px;
+  }
+
+  #solution-container {
+    width: 75%;
+    margin-top: 0;
+  }
+}
