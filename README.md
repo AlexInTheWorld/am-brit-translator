@@ -18,4 +18,4 @@ titles the application should handle.
 * All 24 unit tests are complete and passing. See `/tests/1_unit-tests.js` for the expected behavior.
 * All 6 functional tests are complete and passing (see `/tests/2_functional-tests.js`).
 ___
-Check out the live app here: [AM-BRIT Translator](https://jagged-organized-grade.glitch.me/)
+Check out the live app here: [AM-BRIT Translator](https://am-brit-translator.glitch.me/)
